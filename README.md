@@ -53,7 +53,7 @@ This guide allows any user to deploy the full application **inside HuggingFace S
 
 ## ⚠️ IMPORTANT — Before Deployment
 
-### ✔ 1. Clone the Repository **from GitHub** (NOT HuggingFace)
+### ✔ 1. Clone the Repository **from GitHub**
 
 ```bash
 git clone https://github.com/arghadip2002/NeuroGuard-Web-Application
@@ -162,75 +162,6 @@ Your app will be live at:
 ```
 https://<your-username>-<your-space>.hf.space
 ```
-
----
-
-# 🏗️ Technical Architecture
-
-## 1. **Deep Learning Model (PyTorch)**
-
-- **Framework:** PyTorch 2.1.0  
-- **Architecture:** ResidualInceptionBlock CNN (50+ layers)  
-- **Input:** 224×224 RGB MRI images  
-- **Output:** 4 tumor classes  
-
----
-
-## 2. **Backend API (FastAPI)**
-
-- Async inference API  
-- Handles upload, validation, preprocessing  
-- Returns JSON responses with:
-  - Tumor Type  
-  - Confidence Score  
-  - Time Taken  
-
-Docs automatically available at:
-
-```
-/docs
-```
-
----
-
-## 3. **Frontend (React + Vite)**
-
-- Modern UI for real-time diagnosis  
-- Drag-and-drop or click-to-upload  
-- Displays predictions + confidence  
-
----
-
-# 🎯 Key Features
-
-- **High Accuracy** using custom CNN  
-- **Fast MRI Classification**  
-- **Full-Stack Deployment Ready**  
-- **Prebuilt Docker Environment**  
-- **HuggingFace Spaces Compatible**  
-
----
-
-# 🧬 Tumor Class Details
-
-| Class        | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| **Glioma**       | Tumor originating from glial cells                       |
-| **Meningioma**   | Tumor forming in the meninges (brain membranes)          |
-| **Pituitary**    | Tumor found in the pituitary gland                        |
-| **No Tumor**     | No abnormal mass detected                                 |
-
----
-
-# 📊 Model Summary
-
-| Metric          | Value                             |
-|-----------------|-----------------------------------|
-| Model Type      | Custom ResidualInceptionBlock CNN |
-| Layers          | 50+                               |
-| Input Shape     | (3, 224, 224)                     |
-| Output Classes  | 4                                 |
-| Framework       | PyTorch 2.1.0                     |
 
 ---
 
