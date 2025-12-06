@@ -189,8 +189,7 @@ https://<your-username>-<your-space>.hf.space
 # ⭐ Notes
 
 - The project is fully functional once the correct model file is added.  
-- Users deploying this on HuggingFace must **clone from GitHub**, not from the Space itself.  
-- HuggingFace spaces rebuild automatically on every push.  
-
+- HuggingFace spaces rebuild automatically on every push.
+- 
 ---
 
