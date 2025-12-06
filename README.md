@@ -122,6 +122,28 @@ These lines are required in HuggingFace.
 
 ---
 
+#### ✔ 3.1 IMPORTANT: Delete Visualisation Folder & Reinitialize Git (NEW)
+
+Before step 4 (pushing to your Space) you must remove the Visualisation folder (it contains local UI screenshots and is not required on the HuggingFace Space build), and then remove the repository history and reinitialize git to ensure a clean push to your new HuggingFace Space.
+
+From the project root:
+
+```
+# delete the Visualisation folder
+rm -rf Visualisation
+
+# remove existing git history (hidden .git folder)
+rm -rf .git
+
+# reinitialize a fresh git repo
+git init
+
+# add all files and commit with the required message
+git add .
+git commit -m "all task completed as per instructions from the dev @arghadip2002"
+```
+Note: Removing .git and reinitializing gives you a clean commit history for the Space push. Make sure you have any remote backups you need before removing .git.
+
 ## ✔ 4. Push to Your New HuggingFace Space
 
 ```bash
