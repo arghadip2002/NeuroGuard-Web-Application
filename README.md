@@ -51,8 +51,6 @@ This guide allows any user to deploy the full application **inside HuggingFace S
 
 ---
 
-## ⚠️ IMPORTANT — Before Deployment
-
 ### ✔ 1. Clone the Repository **from GitHub**
 
 ```bash
