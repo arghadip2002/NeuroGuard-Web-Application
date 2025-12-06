@@ -130,10 +130,9 @@ From the project root:
 
 ```
 # delete the Visualisation folder
-rm -rf Visualisation
+rm .\Visualisation\
 
-# remove existing git history (hidden .git folder)
-rm -rf .git
+# remove existing git history (hidden .git folder) manually
 
 # reinitialize a fresh git repo
 git init
