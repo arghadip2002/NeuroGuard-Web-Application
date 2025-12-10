@@ -190,7 +190,8 @@ https://<your-username>-<your-space>.hf.space
   
 ---
 
-#Citations
+# Citations
+
 @article{das2025novel,
   title={Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images},
   author={Das, Sayan and Biswas, Arghadip},
