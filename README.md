@@ -190,8 +190,15 @@ https://<your-username>-<your-space>.hf.space
   
 ---
 
-# Citations
+## 📜 Citation & Academic Acknowledgment
 
+This repository provides the **NeuroGuard Web Application**, which is the deployment of the novel **SAETCN** and **SAS-Net** architectures detailed in our research paper.
+
+If you use this deployed software or its code in your academic work, please cite the underlying paper to acknowledge the methodology and results:
+
+### ✍️ Preferred Citation (BibTeX)
+
+```bibtex
 @article{das2025novel,
   title={Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images},
   author={Das, Sayan and Biswas, Arghadip},
@@ -200,4 +207,10 @@ https://<your-username>-<your-space>.hf.space
   archivePrefix={arXiv},
   primaryClass={cs.CV}
 }
+```
 
+#### 🔗 Paper Link
+
+The full paper is publicly available on the arXiv preprint server: [arXiv:2512.06531](https://www.arxiv.org/abs/2512.06531)
+
+###### ⭐ Note: Citing the paper is essential for the advancement of open science and ensures proper credit for the research that powers this application. Thank you for your support!
