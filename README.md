@@ -181,8 +181,17 @@ https://<your-username>-<your-space>.hf.space
 - **Developer**: [Arghadip Biswas](https://github.com/arghadip2002)
 - **Dataset Links**: [Get the Dataset](https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures/blob/main/dataLinks)
 - **Inspired By**: [SAETCN Architecture](https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures)
+---
+
+# ⭐ Notes
+
+- The project is fully functional once the correct model file is added.  
+- HuggingFace spaces rebuild automatically on every push.
   
-  @article{das2025novel,
+---
+
+#Citations
+@article{das2025novel,
   title={Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images},
   author={Das, Sayan and Biswas, Arghadip},
   year={2025},
@@ -190,13 +199,4 @@ https://<your-username>-<your-space>.hf.space
   archivePrefix={arXiv},
   primaryClass={cs.CV}
 }
-
----
-
-# ⭐ Notes
-
-- The project is fully functional once the correct model file is added.  
-- HuggingFace spaces rebuild automatically on every push.
-- 
----
 
