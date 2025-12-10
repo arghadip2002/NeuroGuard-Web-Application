@@ -181,6 +181,15 @@ https://<your-username>-<your-space>.hf.space
 - **Developer**: [Arghadip Biswas](https://github.com/arghadip2002)
 - **Dataset Links**: [Get the Dataset](https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures/blob/main/dataLinks)
 - **Inspired By**: [SAETCN Architecture](https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures)
+  
+  @article{das2025novel,
+  title={Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images},
+  author={Das, Sayan and Biswas, Arghadip},
+  year={2025},
+  eprint={2512.06531},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
 
 ---
 
