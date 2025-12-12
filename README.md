@@ -67,7 +67,7 @@ The file `backend/models/model.pth` is intentionally empty in the repository.
 You must download the **trained model** from the Google Drive link:
 
 ```
-<YOUR_GOOGLE_DRIVE_LINK_HERE>
+https://drive.google.com/drive/folders/17FJExilSleay1pIylXI1xIGx3oXhddzL?usp=sharing
 ```
 
 Rename it to:
